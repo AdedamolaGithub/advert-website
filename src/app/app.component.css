@@ -1,0 +1,252 @@
+/* Apply different fonts and font sizes to the "Welcome" section */
+#section-welcome {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+#section-welcome h1 {
+  font-size: 24px; /* Adjust the font size as desired */
+  font-family: 'Cinzel Decorative', cursive; /* Use the desired font for h1 */
+  margin: 0;
+}
+
+#section-welcome h4 {
+  font-size: 18px; /* Adjust the font size as desired */
+  font-family: 'Montserrat Alternates', sans-serif; /* Use the desired font for h4 */
+  margin: 0;
+}
+
+#section-welcome p {
+  font-size: 14px; /* Adjust the font size as desired */
+  font-family: 'Pacifico', serif; /* Use the desired font for p */
+  margin: 0;
+}
+
+#slogan {
+  font-size: 12px;
+  margin: 0;
+}
+
+/* Style the logo */
+nav img {
+  width: 150px;
+  margin: 10px;
+}
+
+/* Apply Pacifico font to the "Discover Your Path to Success" text */
+#section-advert h2 {
+  font-family: 'Pacifico', cursive;
+  font-size: 20px;
+  margin: 0;
+  text-align: center; 
+  justify-content: center;
+  align-items: center;
+  
+}
+
+#section-advert p {
+  font-family: 'Montserrat', cursive;
+  font-size: 15px;
+  margin: 0;
+  text-align: center;
+  flex-wrap: wrap;
+  flex-shrink: inherit;
+  container: flex;
+  margin: auto;
+}
+
+
+/* Create the slider container */
+.slider-container {
+  overflow: hidden;
+  width: 100%;
+}
+
+/* Style the individual slides */
+.slide {
+  padding: 10px;
+  text-align: center;
+  background-color: #f0f0f0;
+  color: #333;
+}
+
+/* Set a background color for the body */
+body {
+  background-color: #f0f0f0;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+}
+
+/* Style the header with a background color, padding, and center-aligned text */
+header {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 1rem;
+}
+
+
+/* Style the navigation menu with a horizontal list and inline-block list items */
+nav ul {
+  list-style: none;
+  text-align: center;
+}
+
+nav li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+/* Style the navigation links with white color and underline on hover */
+nav a {
+  text-decoration: none;
+  color: #fff;
+}
+
+/* Apply padding and center the content within each section */
+section {
+  padding: 2rem;
+  text-align: center;
+}
+
+/* Style headings */
+h1, h2 {
+  color: #333;
+}
+
+/* Style paragraph text */
+p {
+  color: #555;
+}
+
+/* Style links within text */
+a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Style the address block */
+address {
+  font-style: normal;
+}
+
+/* Style the "Contact Us" section */
+#section-contact {
+  text-align: center;
+  padding: 2rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+#section-contact h2 {
+  color: #333;
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+
+#section-contact div,
+#section-contact p,
+#section-contact address {
+  flex: 1;
+  color: #555;
+  font-size: 1rem; /* Adjust the font size as needed */
+}
+
+#section-contact address {
+  font-style: normal;
+}
+
+#section-contact .social-media-links {
+  margin-top: 1rem;
+}
+
+#section-contact .social-media-links a {
+  margin: 0 0.5rem;
+}
+
+#section-contact .social-media-links img {
+  width: 60px;
+  height: 60px;
+}
+
+/* Create a responsive layout for smaller screens */
+@media screen and (max-width: 768px) {
+  #section-contact h2 {
+    font-size: 1.2rem; /* Adjust the font size for smaller screens */
+  }
+
+  #section-contact div,
+  #section-contact p,
+  #section-contact address {
+    font-size: 0.9rem; /* Adjust the font size for smaller screens */
+  }
+}
+
+/* Create a responsive layout for smaller screens */
+@media screen and (max-width: 768px) {
+  #section-contact h2 {
+    font-size: 1.2rem; /* Adjust the font size for smaller screens */
+  }
+
+  #section-contact p {
+    font-size: 0.9rem; /* Adjust the font size for smaller screens */
+  }
+
+  #section-contact address {
+    font-size: 0.9rem; /* Adjust the font size for smaller screens */
+  }
+}
+
+
+/* Style the footer */
+footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: #141a1a;
+  color: #fff;
+  text-align: center;
+  padding: 0.75rem;
+}
+
+/* Create a responsive layout for smaller screens */
+@media screen and (max-width: 768px) {
+  header {
+    padding: 0.5rem;
+  }
+
+  nav ul {
+    text-align: center;
+  }
+
+  nav li {
+    display: block;
+    margin: 10px 0;
+  }
+}
+
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  max-width: 1200px; /* Adjust this value to your desired maximum width */
+  margin: 0 auto; /* Center the container horizontally */
+  padding: 20px; /* Add padding to create space around the content */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add a subtle box shadow */
+  background-color: #fff; /* Set the background color to white */
+}
